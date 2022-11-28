@@ -60,7 +60,15 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between h-20 mt-3">
       <div>
-        <h1>Image</h1>
+        <Link rel="noopener noreferrer" href="/">
+          <Image
+            src="/images/Alogo3.png"
+            width={45}
+            height={45}
+            alt="aLogo"
+            className=""
+          />
+        </Link>
       </div>
       <div className="">
         <ul className="flex gap-5 text-sm md:gap-9">
@@ -68,7 +76,7 @@ const Header = () => {
           <Link
             rel="noopener noreferrer"
             href="/"
-            className="text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+            className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-30"
           >
             Home
           </Link>
@@ -76,7 +84,7 @@ const Header = () => {
           <Link
             rel="noopener noreferrer"
             href="/"
-            className="text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
+            className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
           >
             New
           </Link>
@@ -84,7 +92,7 @@ const Header = () => {
           <Link
             rel="noopener noreferrer"
             href="/"
-            className="text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
+            className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
           >
             Popular
           </Link>
@@ -92,7 +100,7 @@ const Header = () => {
           <Link
             rel="noopener noreferrer"
             href="/"
-            className="text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
+            className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
           >
             Trending
           </Link>
@@ -100,7 +108,7 @@ const Header = () => {
           <Link
             rel="noopener noreferrer"
             href="/"
-            className="text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
+            className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
           >
             Categories
           </Link>

@@ -15,7 +15,7 @@ const Hero = () => {
             className=" rounded-3xl"
           />
         </div>
-        <div className="row-span-2 text-white bg-gray-900 ">
+        <div className="row-span-2 text-white bg-neutral-900 rounded-xl">
           <h1 className="mt-12 text-4xl font-semibold m-7 text-amber-400">New</h1>{" "}
           <div className="m-7">
             <h2 className="text-xl font-semibold">Philippine Architecture</h2>

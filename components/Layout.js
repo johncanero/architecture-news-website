@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../sections/Header";
 import Footer from "../sections/Footer";
+import MenuDropdown from "../sections/MenuDropdown";
 // import MobileFooterButtons from "../sections/MobileFooterButtons";
 
 const Layout = ({ children }) => {
@@ -24,6 +25,8 @@ const Layout = ({ children }) => {
       {/* Header, Main & Footer */}
       <div className="flex flex-col min-h-screen">
         <Header />
+        {/* Mobile Visibility */}
+        <MenuDropdown />
         <main className="flex-grow">{children}</main>
         <Footer />
         {/* <MobileFooterButtons /> */}

@@ -11,6 +11,11 @@ const Hero = () => {
             possimus autem repudiandae reiciendis, esse corporis! Beatae nihil
             maxime ipsam! Eius autem quidem animi facilis deleniti pariatur
             ipsum explicabo beatae culpa.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+            possimus autem repudiandae reiciendis, esse corporis! Beatae nihil
+            maxime ipsam! Eius autem quidem animi facilis deleniti pariatur
+            ipsum explicabo beatae culpa.
+            
           </p>
         </div>
         <div className="row-span-2 ">

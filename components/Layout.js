@@ -18,11 +18,11 @@ const Layout = ({ children }) => {
         <meta property="og:title" content="Architecture News Website: A Frontend Mentor Challenge" />
         <meta property="og:description" content="Architecture, News, Design" />
         {/* Flaticon */}
-        {/* <link rel="shortcut icon" href="/images/letterJ.png" /> */}
+        <link rel="shortcut icon" href="/images/Alogo3.png" />
       </Head>
 
       {/* Header, Main & Footer */}
-      <div className="min-h-screen flex flex-col">
+      <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

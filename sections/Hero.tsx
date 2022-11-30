@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div>
-      <div className="flex-col mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-8 font-Poppins">
+      <div className="flex-col mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-5 font-Poppins">
         <div className="col-span-2">
           {/* <h1 className="text-3xl font-bold">Architecture News</h1> */}
           <Link
@@ -128,8 +128,8 @@ const Hero = () => {
             heritage. To make it beautiful and make our country more fun and
             friendly.
           </p>
-          <button className="flex px-12 py-3 mx-auto mt-5 font-bold rounded-lg md:mx-0 text-neutral-900 bg-amber-400 hover:bg-amber-300">
-            Button
+          <button className="flex px-12 py-3 mx-auto mt-5 font-bold tracking-widest rounded-lg md:mx-0 text-neutral-900 bg-amber-400 hover:bg-amber-300">
+            READ ME
           </button>
           <Image
               src="/images/newClarkCity.jpg"

@@ -80,9 +80,9 @@ const MenuDropdown = () => {
         {renderThemeChanger()}
         <Menu as="div" className="relative inline-block text-left mr-7">
           <div>
-            <Menu.Button className="inline-flex justify-center w-full px-2 py-2 text-sm font-medium text-white rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
+            <Menu.Button className="inline-flex justify-center w-full px-2 py-2 text-sm font-medium text-white rounded-md bg-neutral-800 dark:bg-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
               <GiHamburgerMenu
-                className="w-5 h-5 text-white"
+                className="w-5 h-5 dark:text-neutral-900"
                 aria-hidden="true"
               />
             </Menu.Button>

@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="row-span-4 text-white rounded-lg bg-neutral-900 dark:bg-neutral-800">
-          <h1 className="text-3xl font-semibold md:mt-7 m-7 text-amber-400">
+          <h1 className="pt-6 text-3xl font-semibold md:mt-7 m-7 md:pt-0 text-amber-400">
             Amazing Philippine Architecture...
           </h1>{" "}
           <div className="m-7">

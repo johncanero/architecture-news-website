@@ -64,7 +64,7 @@ const Hero = () => {
               alt="ustMainBuilding.jpeg"
               className="mt-1 rounded-lg h-60 md:h-48"
             />
-             <p className="justify-end mt-1 text-xs text-left">
+            <p className="justify-end mt-1 text-xs text-left">
               PHOTO from Gwen Dela Cruz of Rappler: UST Main Building
             </p>
             <p className="mt-2 text-sm text-gray-500">
@@ -88,7 +88,8 @@ const Hero = () => {
               className="mt-1 rounded-lg h-60 md:h-48"
             />
             <p className="justify-end mt-1 text-xs text-left">
-              PHOTO from BluPrint: Buensalido’s Polygon House is the Result of Out-of-the-Box Thinking
+              PHOTO from BluPrint: Buensalido’s Polygon House is the Result of
+              Out-of-the-Box Thinking
             </p>
             <p className="mt-2 text-sm text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
@@ -98,15 +99,28 @@ const Hero = () => {
             </p>
             <hr className="h-px my-6 bg-gray-700 border-0 dark:bg-gray-700"></hr>
             <h1 className="mt-12 text-3xl font-semibold m-7 text-amber-400">
-            Stay tuned for more projects!
-          </h1>{" "}
-          </div>x
+              Stay tuned for more projects!
+            </h1>{" "}
+          </div>
+          x
         </div>
         <div>
           {" "}
           <h2 className="text-5xl font-bold">
             The Bright Future of Philippine Architecture?
           </h2>
+  
+            <Image
+              src="/images/newClarkCityMastersPlan.jpg"
+              width={1000}
+              height={1000}
+              alt="ewcClarkCity"
+              className="mt-5 rounded-lg md:h-44"
+            />
+            <p className="justify-end mt-1 text-xs text-left">
+              PHOTO from BCDA: New Clark City's Master Plan
+            </p>
+   
         </div>
         <div>
           {" "}
@@ -120,6 +134,16 @@ const Hero = () => {
           <button className="px-12 py-3 mt-5 font-bold rounded-lg text-neutral-900 bg-amber-400 hover:bg-amber-300">
             Button
           </button>
+          <Image
+              src="/images/newClarkCity.jpg"
+              width={1000}
+              height={1000}
+              alt="ewcClarkCity"
+              className="mt-5 rounded-lg md:h-44"
+            />
+            <p className="justify-end mt-1 text-xs text-left">
+              PHOTO from BCDA: New Clark City Current Development
+            </p>
         </div>
       </div>
     </div>

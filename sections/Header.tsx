@@ -86,7 +86,7 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/"
+                href="/new"
                 className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 New
@@ -94,7 +94,7 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/"
+                href="/popular"
                 className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Popular
@@ -102,7 +102,7 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/"
+                href="/trending"
                 className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Trending
@@ -110,7 +110,7 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/"
+                href="/categories"
                 className="mt-1 text-base font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Categories

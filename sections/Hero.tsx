@@ -26,7 +26,7 @@ const Hero = () => {
             @ ArchDaily | Photograph: John Nye{" "}
           </p>
         </div>
-        <div className="row-span-4 text-white rounded-lg bg-neutral-900 dark:bg-neutral-800">
+        <div className="row-span-4 pb-3 text-white rounded-lg bg-neutral-900 dark:bg-neutral-800">
           <h1 className="pt-6 text-3xl font-semibold md:mt-7 m-7 md:pt-0 text-amber-400">
             Amazing Philippine Architecture...
           </h1>{" "}
@@ -98,15 +98,11 @@ const Hero = () => {
               maxime optio tempore perspiciatis?
             </p>
             <hr className="h-px my-6 bg-gray-700 border-0 dark:bg-gray-700"></hr>
-            <h1 className="mt-12 text-3xl font-semibold m-7 text-amber-400">
-              Stay tuned for more projects!
-            </h1>{" "}
           </div>
-          x
         </div>
         <div>
           {" "}
-          <h2 className="text-5xl font-bold">
+          <h2 className="mt-6 text-4xl font-bold text-center md:mt-0 md:text-5xl md:text-left">
             The Bright Future of Philippine Architecture?
           </h2>
   
@@ -124,14 +120,14 @@ const Hero = () => {
         </div>
         <div>
           {" "}
-          <p className="mx-1 text-sm">
+          <p className="mx-1 mt-4 text-sm text-center md:mt-0 md:text-left">
             We dive into the next evolution of Architecture in the Philippines
             that claims to empower the next generation design of the Philippine
             landscape while maintaining its historic and rich culture of
             heritage. To make it beautiful and make our country more fun and
             friendly.
           </p>
-          <button className="px-12 py-3 mt-5 font-bold rounded-lg text-neutral-900 bg-amber-400 hover:bg-amber-300">
+          <button className="flex px-12 py-3 mx-auto mt-5 font-bold rounded-lg md:mx-0 text-neutral-900 bg-amber-400 hover:bg-amber-300">
             Button
           </button>
           <Image
@@ -139,9 +135,9 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="ewcClarkCity"
-              className="mt-5 rounded-lg md:h-44"
+              className="h-48 mt-5 rounded-lg md:h-44"
             />
-            <p className="justify-end mt-1 text-xs text-left">
+            <p className="justify-end mt-1 mb-12 text-xs text-left md:m-0">
               PHOTO from BCDA: New Clark City Current Development
             </p>
         </div>

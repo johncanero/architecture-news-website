@@ -32,6 +32,7 @@ const Hero = () => {
           </h1>{" "}
           <div className="m-7">
             <h2 className="text-xl font-semibold">Pearl Farm Beach Resort</h2>
+            {/* Add Link */}
             <Image
               src="/images/pearlFarmResort.jpg"
               width={1000}

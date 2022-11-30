@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 grid-rows-3 mt-8 gap-7 font-Poppins">
+      <div className="grid grid-cols-3 grid-rows-3 mt-8 gap-7 gap-y-8 font-Poppins">
         <div className="col-span-2 ">
           <Link
             target="_blank"
@@ -18,7 +18,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="aLogo"
-              className="rounded-lg "
+              className="rounded-lg h-96"
             />
           </Link>{" "}
           <p className="justify-end mt-1 text-xs text-left">
@@ -69,6 +69,7 @@ const Hero = () => {
           {" "}
           <h2 className="text-5xl font-bold">
             The Bright Future of Philippine Architecture?
+       
           </h2>
         </div>
         <div>

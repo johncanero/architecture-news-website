@@ -6,8 +6,9 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div>
-      <div className="flex-col mt-7 md:flex-none md:grid-cols-3 md:grid-rows-4 md:grid md:gap-7 md:gap-y-8 font-Poppins">
-        <div className="col-span-2 ">
+      <div className="flex-col mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-8 font-Poppins">
+        <div className="col-span-2">
+          {/* <h1 className="text-3xl font-bold">Architecture News</h1> */}
           <Link
             target="_blank"
             rel="noopener noreferrer"
@@ -18,7 +19,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="mactanAirport"
-              className="rounded-lg h-60 md:h-96"
+              className="rounded-lg h-60 md:h-72 lg:h-96"
             />
           </Link>{" "}
           <p className="justify-end mt-1 text-xs text-left">

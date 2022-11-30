@@ -114,7 +114,7 @@ const Hero = () => {
               alt="ewcClarkCity"
               className="mt-5 rounded-lg md:h-44"
             />
-            <p className="justify-end mt-1 text-xs text-left">
+            <p className="justify-end mt-2 text-xs text-left">
               PHOTO from BCDA: New Clark City's Master Plan
             </p>
    
@@ -136,9 +136,9 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="ewcClarkCity"
-              className="h-48 mt-5 rounded-lg md:h-44"
+              className="mt-5 rounded-lg md:h-44"
             />
-            <p className="justify-end mt-1 mb-12 text-xs text-left md:m-0">
+            <p className="justify-end mt-2 mb-12 text-xs text-left md:mb-0">
               PHOTO from BCDA: New Clark City Current Development
             </p>
         </div>

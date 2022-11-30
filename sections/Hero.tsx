@@ -26,7 +26,7 @@ const Hero = () => {
             @ ArchDaily | Photograph: John Nye{" "}
           </p>
         </div>
-        <div className="row-span-2 text-white rounded-lg bg-neutral-900">
+        <div className="row-span-2 text-white rounded-lg bg-neutral-900 dark:bg-neutral-800">
           <h1 className="mt-12 text-3xl font-semibold m-7 text-amber-400">
             Amazing Philippine Architecture...
           </h1>{" "}
@@ -41,7 +41,9 @@ const Hero = () => {
             <hr className="h-px my-6 bg-gray-700 border-0 dark:bg-gray-700"></hr>
           </div>
           <div className="m-7">
-            <h2 className="text-xl font-semibold">University of Santo Tomas Main Building</h2>
+            <h2 className="text-xl font-semibold">
+              University of Santo Tomas Main Building
+            </h2>
             <p className="mt-2 text-sm text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
               eum, aliquid, omnis laboriosam nemo corrupti eos velit
@@ -51,7 +53,9 @@ const Hero = () => {
             <hr className="h-px my-6 bg-gray-700 border-0 dark:bg-gray-700"></hr>
           </div>
           <div className="m-7">
-            <h2 className="text-xl font-semibold">Buensalido's Polygon House</h2>
+            <h2 className="text-xl font-semibold">
+              Buensalido's Polygon House
+            </h2>
             <p className="mt-2 text-sm text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
               eum, aliquid, omnis laboriosam nemo corrupti eos velit
@@ -76,11 +80,11 @@ const Hero = () => {
             heritage. To make it beautiful and make our country more fun and
             friendly.
           </p>
+          <button className="px-12 py-3 mt-5 font-bold rounded-lg text-neutral-900 bg-amber-400 hover:bg-amber-300">
+            Button
+          </button>
         </div>
-        
       </div>
-
-      
     </div>
   );
 };

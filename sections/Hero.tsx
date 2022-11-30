@@ -17,7 +17,7 @@ const Hero = () => {
               src="/images/mactanAirport.jpg"
               width={1000}
               height={1000}
-              alt="aLogo"
+              alt="mactanAirport"
               className="rounded-lg h-60 md:h-96"
             />
           </Link>{" "}
@@ -26,13 +26,23 @@ const Hero = () => {
             @ ArchDaily | Photograph: John Nye{" "}
           </p>
         </div>
-        <div className="row-span-2 text-white rounded-lg bg-neutral-900 dark:bg-neutral-800">
+        <div className="row-span-3 text-white rounded-lg bg-neutral-900 dark:bg-neutral-800">
           <h1 className="mt-12 text-3xl font-semibold m-7 text-amber-400">
             Amazing Philippine Architecture...
           </h1>{" "}
           <div className="m-7">
             <h2 className="text-xl font-semibold">Pearl Farm Beach Resort</h2>
-            <p className="mt-2 text-sm text-gray-500">
+            <Image
+              src="/images/pearlFarmResort.jpg"
+              width={1000}
+              height={1000}
+              alt="pearlFarmResort"
+              className="mt-1 rounded-lg h-60 md:h-48"
+            />
+             <p className="justify-end mt-1 text-xs text-left">
+            PHOTO from Gaia Discovery: Pearl Farm Beach Resort - Aquaculture Tourism on Samal Island
+          </p>
+            <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
               eum, aliquid, omnis laboriosam nemo corrupti eos velit
               necessitatibus cum, placeat ad ex maxime error? Quidem veritatis

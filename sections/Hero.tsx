@@ -39,7 +39,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="pearlFarmResort"
-              className="mt-1 rounded-lg h-60 md:h-48"
+              className="mt-1 rounded-lg h-60 md:h-40"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from Gaia Discovery: Pearl Farm Beach Resort - Aquaculture
@@ -63,7 +63,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="ustMainBuilding.jpeg"
-              className="mt-1 rounded-lg h-60 md:h-48"
+              className="mt-1 rounded-lg h-60 md:h-40"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from Gwen Dela Cruz of Rappler: UST Main Building
@@ -86,7 +86,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="buensalidoPolygonHouse"
-              className="mt-1 rounded-lg h-60 md:h-48"
+              className="mt-1 rounded-lg h-60 md:h-40"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from BluPrint: Buensalido’s Polygon House is the Result of

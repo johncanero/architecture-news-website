@@ -27,8 +27,8 @@ const Hero = () => {
             @ ArchDaily | Photograph: John Nye{" "}
           </p>
         </div>
-        <div className="row-span-4 pb-3 text-white rounded-lg bg-neutral-900 dark:bg-neutral-800">
-          <h1 className="pt-6 text-3xl font-semibold md:mt-7 m-7 md:pt-0 text-amber-400">
+        <div className="row-span-4 pb-3 text-black md:text-white bg-gray-50 md:bg-neutral-900 rounded-xl dark:text-white dark:bg-neutral-800">
+          <h1 className="pt-6 text-3xl font-semibold text-center text-yellow-700 md:text-amber-400 md:text-left md:mt-7 m-7 md:pt-0 dark:text-amber-400">
             Amazing Philippine Architecture...
           </h1>{" "}
           <div className="m-7">
@@ -51,7 +51,7 @@ const Hero = () => {
               necessitatibus cum, placeat ad ex maxime error? Quidem veritatis
               maxime optio tempore perspiciatis?
             </p>
-            <hr className="h-px my-6 bg-gray-700 border-0 dark:bg-gray-700"></hr>
+            <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
           </div>
           <div className="m-7">
             <h2 className="text-xl font-semibold">
@@ -74,7 +74,7 @@ const Hero = () => {
               necessitatibus cum, placeat ad ex maxime error? Quidem veritatis
               maxime optio tempore perspiciatis?
             </p>
-            <hr className="h-px my-6 bg-gray-700 border-0 dark:bg-gray-700"></hr>
+            <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
           </div>
           <div className="m-7">
             <h2 className="text-xl font-semibold">
@@ -98,7 +98,7 @@ const Hero = () => {
               necessitatibus cum, placeat ad ex maxime error? Quidem veritatis
               maxime optio tempore perspiciatis?
             </p>
-            <hr className="h-px my-6 bg-gray-700 border-0 dark:bg-gray-700"></hr>
+            <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
           </div>
         </div>
         <div>
@@ -121,14 +121,14 @@ const Hero = () => {
         </div>
         <div>
           {" "}
-          <p className="mx-1 mt-4 text-sm text-center md:mt-0 md:text-left">
+          <p className="mx-2 mt-4 text-sm text-center md:mt-0 md:text-left">
             We dive into the next evolution of Architecture in the Philippines
             that claims to empower the next generation design of the Philippine
             landscape while maintaining its historic and rich culture of
             heritage. To make it beautiful and make our country more fun and
             friendly.
           </p>
-          <button className="flex px-12 py-3 mx-auto mt-5 font-bold tracking-widest rounded-lg md:mx-0 text-neutral-900 bg-amber-400 hover:bg-amber-300">
+          <button className="flex px-32 py-3 mx-auto mt-5 font-bold tracking-widest rounded-lg md:px-12 md:mx-0 text-neutral-900 bg-amber-400 hover:bg-amber-300">
             READ ME
           </button>
           <Image
@@ -136,7 +136,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="ewcClarkCity"
-              className="mt-5 rounded-lg md:h-44"
+              className="rounded-lg mt-7 md:h-44"
             />
             <p className="justify-end mt-2 mb-12 text-xs text-left md:mb-0">
               PHOTO from BCDA: New Clark City Current Development

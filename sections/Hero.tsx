@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 grid-rows-3 mt-8 gap-7 gap-y-8 font-Poppins">
+      <div className="mt-8 md:grid-cols-3 md:grid-rows-3 md:grid md:gap-7 md:gap-y-8 font-Poppins">
         <div className="col-span-2 ">
           <Link
             target="_blank"

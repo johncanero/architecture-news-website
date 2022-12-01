@@ -161,6 +161,14 @@ const Hero = () => {
             officiis eos voluptate architecto inventore sunt sequi qui iure
             facilis molestias, recusandae delectus nisi?
           </p>
+
+          
+          <p className="mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
         </div>
         <div>
           <p className="">
@@ -176,7 +184,66 @@ const Hero = () => {
             officiis eos voluptate architecto inventore sunt sequi qui iure
             facilis molestias, recusandae delectus nisi?
           </p>
+
+          <p className="mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
         </div>
+
+        <div>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
+
+          <p className="mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
+          
+        </div>
+
+        <div>
+          
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
+
+          <p className="mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
+        </div>
+      </div>
+
+      <div className="flex mt-6 gap-7">
+        <CardItem
+          src="/images/coconutPalace.jpg"
+          path=""
+          number="1"
+          title="Coconut Palace"
+          description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
+        />
+
+        <CardItem
+          src="/images/coconutPalace.jpg"
+          path=""
+          number="1"
+          title="Coconut Palace"
+          description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
+        />
       </div>
     </div>
   );

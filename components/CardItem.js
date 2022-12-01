@@ -15,7 +15,7 @@ const CardItem = (props) => {
           alt=""
           width={180}
           height={180}
-          className="w-full rounded-2xl"
+          className="w-full p-4 rounded-2xl"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
           <h1>{props.number}</h1>

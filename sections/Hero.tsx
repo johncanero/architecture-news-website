@@ -8,6 +8,7 @@ const Hero = () => {
     <div>
       <div className="flex-col mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-5 font-Poppins">
         <div className="col-span-2">
+          
           {/* <h1 className="text-3xl font-bold">Architecture News</h1> */}
           <Link
             target="_blank"
@@ -27,8 +28,8 @@ const Hero = () => {
             @ ArchDaily | Photograph: John Nye{" "}
           </p>
         </div>
-        <div className="row-span-4 pb-3 text-black md:text-white bg-gray-50 md:bg-neutral-900 rounded-xl dark:text-white dark:bg-neutral-800">
-          <h1 className="pt-6 text-3xl font-semibold text-center text-yellow-700 md:text-amber-400 md:text-left md:mt-7 m-7 md:pt-0 dark:text-amber-400">
+        <div className="row-span-4 pb-3 text-neutral-900 md:text-white bg-gray-50 md:bg-neutral-900 rounded-xl dark:text-white dark:bg-neutral-800">
+          <h1 className="pt-6 mx-6 text-3xl font-bold text-center md:text-amber-400 md:text-left md:mt-7 m-7 md:pt-0 dark:text-amber-400">
             Amazing Philippine Architecture...
           </h1>{" "}
           <div className="m-7">

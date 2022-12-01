@@ -2,13 +2,13 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CardItem from "../components/CardItem";
 
 const Hero = () => {
   return (
     <div>
       <div className="flex-col mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-5 font-Poppins">
         <div className="col-span-2">
-          
           {/* <h1 className="text-3xl font-bold">Architecture News</h1> */}
           <Link
             target="_blank"
@@ -101,8 +101,8 @@ const Hero = () => {
             </p>
             <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
           </div>
-          <div className="m-7">
-            <h3>Stay tuned for more projects! 🟡</h3>
+          <div className="text-xl font-bold m-7">
+            <h3>Stay tuned for more projects!</h3>
           </div>
         </div>
         <div>
@@ -110,18 +110,17 @@ const Hero = () => {
           <h2 className="mt-6 text-4xl font-bold text-center md:mt-0 md:text-5xl md:text-left">
             The Bright Future of Philippine Architecture?
           </h2>
-  
-            <Image
-              src="/images/newClarkCityMastersPlan.jpg"
-              width={1000}
-              height={1000}
-              alt="newcClarkCity"
-              className="mt-6 rounded-lg md:h-44"
-            />
-            <p className="justify-end mt-2 text-xs text-left">
-              PHOTO from BCDA: New Clark City's Master Plan
-            </p>
-   
+          <Image
+            src="/images/newClarkCityMastersPlan.jpg"
+            width={1000}
+            height={1000}
+            alt="newcClarkCity"
+            className="mt-6 rounded-lg md:h-44"
+          />
+          <p className="justify-end mt-2 text-xs text-left">
+            PHOTO from BCDA: New Clark City's Master Plan
+          </p>
+          {/* <p className="mt-1 text-sm">Witness the future Clark's City Development and one-of-a-kind structures.</p> */}
         </div>
         <div>
           {" "}
@@ -136,15 +135,47 @@ const Hero = () => {
             READ ME
           </button>
           <Image
-              src="/images/newClarkCity.jpg"
-              width={1000}
-              height={1000}
-              alt="ewcClarkCity"
-              className="rounded-lg mt-7 md:h-44"
-            />
-            <p className="justify-end mt-2 mb-12 text-xs text-left md:mb-0">
-              PHOTO from BCDA: New Clark City Current Development
-            </p>
+            src="/images/newClarkCity.jpg"
+            width={1000}
+            height={1000}
+            alt="ewcClarkCity"
+            className="rounded-lg mt-7 md:h-44"
+          />
+          <p className="justify-end mt-2 mb-12 text-xs text-left md:mb-0">
+            PHOTO from BCDA: New Clark City Current Development
+          </p>
+        </div>
+
+        {/* Card Item */}
+        <div>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
+
+          <p className="mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
+        </div>
+        <div>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
+
+          <p className="mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            deleniti expedita quisquam numquam corrupti quae, repudiandae
+            officiis eos voluptate architecto inventore sunt sequi qui iure
+            facilis molestias, recusandae delectus nisi?
+          </p>
         </div>
       </div>
     </div>

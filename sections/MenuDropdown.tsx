@@ -7,6 +7,11 @@ import { Fragment, useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";
 // Icons
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
+import { FaHome } from "@react-icons/all-files/fa/FaHome";
+import { GrNewWindow } from "@react-icons/all-files/gr/GrNewWindow";
+import { AiFillStar } from "@react-icons/all-files/ai/AiFillStar";
+import { FiTrendingUp } from "@react-icons/all-files/fi/FiTrendingUp";
+import { HiTemplate} from "@react-icons/all-files/hi/HiTemplate";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -107,6 +112,7 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
+                        <FaHome size={17} />
                         <span className="ml-2">Home</span>
                       </button>
                     </Link>
@@ -114,13 +120,14 @@ const MenuDropdown = () => {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <Link href="/about">
+                    <Link href="/new">
                       <button
                         className={`${
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <span className="ml-2">About Me</span>
+                        <GrNewWindow size={17} />
+                        <span className="ml-2">New</span>
                       </button>
                     </Link>
                   )}
@@ -130,13 +137,14 @@ const MenuDropdown = () => {
               <div className="px-1 py-1 pb-2">
                 <Menu.Item>
                   {({ active }) => (
-                    <Link href="/techstack">
+                    <Link href="/popular">
                       <button
                         className={`${
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <span className="ml-2">Tech Stack</span>
+                        <AiFillStar size={17} />
+                        <span className="ml-2">Popular</span>
                       </button>
                     </Link>
                   )}
@@ -149,7 +157,8 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <span className="ml-2">Projects</span>
+                        <FiTrendingUp size={17} />
+                        <span className="ml-2">Trending</span>
                       </button>
                     </Link>
                   )}
@@ -170,7 +179,8 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
                       >
-                        <span className="ml-2">Contact</span>
+                        <HiTemplate size={17} />
+                        <span className="ml-2">Categories</span>
                       </button>
                     </Link>
                   )}
@@ -178,7 +188,7 @@ const MenuDropdown = () => {
               </div>
 
               {/* Bio Link */}
-              <div className="px-1 py-1 pb-2">
+              {/* <div className="px-1 py-1 pb-2">
                 <Menu.Item>
                   {({ active }) => (
                     <Link
@@ -196,7 +206,7 @@ const MenuDropdown = () => {
                     </Link>
                   )}
                 </Menu.Item>
-              </div>
+              </div> */}
             </Menu.Items>
           </Transition>
         </Menu>

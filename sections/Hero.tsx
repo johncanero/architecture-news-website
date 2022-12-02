@@ -226,7 +226,7 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
+          <hr className="h-px mt-3 bg-gray-300 border-0 dark:bg-gray-800"></hr>
         </div>
       </div>
 

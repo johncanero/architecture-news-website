@@ -234,7 +234,7 @@ const Hero = () => {
         <CardItem
           src="/images/coconutPalace.jpg"
           path=""
-          number="1"
+          number="01"
           title="Coconut Palace"
           description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
         />
@@ -243,7 +243,7 @@ const Hero = () => {
           <CardItem
             src="/images/coconutPalace.jpg"
             path=""
-            number="2"
+            number="02"
             title="Coconut Palace"
             description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
           />
@@ -254,7 +254,7 @@ const Hero = () => {
         <CardItem
           src="/images/coconutPalace.jpg"
           path=""
-          number="3"
+          number="03"
           title="Coconut Palace"
           description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
         />
@@ -263,7 +263,7 @@ const Hero = () => {
           <CardItem
             src="/images/coconutPalace.jpg"
             path=""
-            number="4"
+            number="04"
             title="Coconut Palace"
             description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
           />

@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const CardItem = (props) => {
   return (
-    <div>
+    <div className=" font-Poppins">
       <Link
         href={props.path}
-        className="flex-col items-center bg-white border rounded-lg shadow-md lg:flex md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="flex-col items-center bg-white border rounded-lg shadow-md lg:flex md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800 dark:hover:bg-neutral-700"
       >
         <Image
           src={props.src}
@@ -18,7 +18,7 @@ const CardItem = (props) => {
           className="w-full p-4 rounded-2xl"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
-          <h1>{props.number}</h1>
+          <h1 className="text-3xl font-bold">{props.number}</h1>
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {props.title}
           </h5>

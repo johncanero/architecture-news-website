@@ -132,9 +132,15 @@ const Hero = () => {
             heritage. To make it beautiful and make our country more fun and
             friendly.
           </p>
-          <button className="flex px-32 py-3 mx-auto mt-5 font-bold tracking-widest rounded-lg md:px-12 md:mx-0 text-neutral-900 bg-amber-400 hover:bg-amber-300">
-            READ ME
-          </button>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://newclark.ph/"
+          >
+            <button className="flex px-32 py-3 mx-auto mt-5 font-bold tracking-widest rounded-lg md:px-12 md:mx-0 text-neutral-900 bg-amber-400 hover:bg-amber-300">
+              READ ME
+            </button>
+          </Link>
           <Image
             src="/images/newClarkCity.jpg"
             width={1000}

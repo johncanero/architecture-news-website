@@ -108,7 +108,7 @@ const Hero = () => {
 
         <div>
           {" "}
-          <h2 className="mt-6 text-4xl font-bold text-center md:mt-0 md:text-5xl md:text-left">
+          <h2 className="mt-6 text-4xl font-bold text-center md:mt-0 md:text-4xl lg:text-5xl md:text-left">
             The Bright Future of Philippine Architecture?
           </h2>
           <Image
@@ -189,7 +189,7 @@ const Hero = () => {
           <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
         </div>
 
-        <div>
+        <div className="hidden md:hidden lg:block">
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
             deleniti expedita quisquam numquam corrupti quae, repudiandae
@@ -207,7 +207,7 @@ const Hero = () => {
           <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
         </div>
 
-        <div>
+        <div className="hidden md:hidden lg:block">
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
             deleniti expedita quisquam numquam corrupti quae, repudiandae

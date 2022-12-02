@@ -20,7 +20,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="mactanAirport"
-              className="rounded-lg h-60 md:h-72 lg:h-96"
+              className="h-56 rounded-lg md:h-72 lg:h-96"
             />
           </Link>{" "}
           <p className="justify-end mt-1 text-xs text-left">
@@ -28,9 +28,9 @@ const Hero = () => {
             @ ArchDaily | Photograph: John Nye{" "}
           </p>
         </div>
-        <div className="row-span-4 pb-3 text-neutral-900 md:text-white bg-gray-50 md:bg-neutral-900 rounded-xl dark:text-white dark:bg-neutral-800">
+        <div className="row-span-4 pb-3 bg-gray-200 text-neutral-900 md:text-white md:bg-neutral-900 rounded-xl dark:text-white dark:bg-neutral-800">
           <h1 className="pt-6 mx-6 text-3xl font-bold text-center md:text-amber-400 md:text-left md:mt-7 m-7 md:pt-0 dark:text-amber-400">
-            Amazing Philippine Architecture...
+            Amazing Philippine Architecture
           </h1>{" "}
           <div className="m-7">
             <h2 className="text-xl font-semibold">Pearl Farm Beach Resort</h2>
@@ -40,7 +40,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="pearlFarmResort"
-              className="mt-1 rounded-lg h-60 md:h-40"
+              className="h-56 mt-1 rounded-lg md:h-40"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from Gaia Discovery: Pearl Farm Beach Resort - Aquaculture
@@ -64,7 +64,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="ustMainBuilding.jpeg"
-              className="mt-1 rounded-lg h-60 md:h-40"
+              className="h-56 mt-1 rounded-lg md:h-40"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from Gwen Dela Cruz of Rappler: UST Main Building
@@ -87,7 +87,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="buensalidoPolygonHouse"
-              className="mt-1 rounded-lg h-60 md:h-40"
+              className="h-56 mt-1 rounded-lg md:h-40"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from BluPrint: Buensalido’s Polygon House is the Result of
@@ -105,6 +105,7 @@ const Hero = () => {
             <h3>Stay tuned for more projects!</h3>
           </div>
         </div>
+
         <div>
           {" "}
           <h2 className="mt-6 text-4xl font-bold text-center md:mt-0 md:text-5xl md:text-left">
@@ -162,13 +163,7 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          
-          <p className="mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
-          </p>
+          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
         </div>
         <div>
           <p className="">
@@ -185,12 +180,7 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          <p className="mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
-          </p>
+          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
         </div>
 
         <div>
@@ -207,11 +197,11 @@ const Hero = () => {
             officiis eos voluptate architecto inventore sunt sequi qui iure
             facilis molestias, recusandae delectus nisi?
           </p>
-          
+
+          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
         </div>
 
         <div>
-          
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
             deleniti expedita quisquam numquam corrupti quae, repudiandae
@@ -225,10 +215,12 @@ const Hero = () => {
             officiis eos voluptate architecto inventore sunt sequi qui iure
             facilis molestias, recusandae delectus nisi?
           </p>
+
+          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
         </div>
       </div>
 
-      <div className="flex mt-6 gap-7">
+      <div className="mt-6 md:flex gap-7">
         <CardItem
           src="/images/coconutPalace.jpg"
           path=""
@@ -237,13 +229,35 @@ const Hero = () => {
           description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
         />
 
+        <div className="mt-7 md:mt-0">
+          <CardItem
+            src="/images/coconutPalace.jpg"
+            path=""
+            number="2"
+            title="Coconut Palace"
+            description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
+          />
+        </div>
+      </div>
+
+      <div className="mt-6 mb-6 md:flex gap-7">
         <CardItem
           src="/images/coconutPalace.jpg"
           path=""
-          number="1"
+          number="3"
           title="Coconut Palace"
           description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
         />
+
+        <div className="mt-7 md:mt-0">
+          <CardItem
+            src="/images/coconutPalace.jpg"
+            path=""
+            number="4"
+            title="Coconut Palace"
+            description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
+          />
+        </div>
       </div>
     </div>
   );

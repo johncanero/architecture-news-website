@@ -169,21 +169,25 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
+          <hr className="h-px bg-gray-300 border-0 my-14 dark:bg-gray-800"></hr>
         </div>
         <div>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
+          <h3 className="text-3xl font-semibold text-right ">
+            Know the Experts
+          </h3>
+          <Image
+            src="/images/manosaExpert.jpg"
+            width={1000}
+            height={1000}
+            alt="ewcClarkCity"
+            className="mt-1 rounded-lg md:h-41 "
+          />
+          <p className="justify-end mt-2 mb-12 text-xs text-left md:mb-0">
+            PHOTO from Real Living Philippines: Francisco Mañosa
           </p>
-
           <p className="mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
+            Find out advices and inspiring message from notable architects in
+            the Philippines.
           </p>
 
           <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
@@ -204,7 +208,7 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
+          <hr className="h-px mt-3 bg-gray-300 border-0 dark:bg-gray-800"></hr>
         </div>
 
         <div className="hidden md:hidden lg:block">

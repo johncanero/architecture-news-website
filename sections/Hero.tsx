@@ -231,13 +231,13 @@ const Hero = () => {
       </div>
 
       {/* Card Items */}
-      <div className="mt-6 md:flex gap-7">
-        <CardItem
-          src="/images/coconutPalace.jpg"
+      <div className="mt-6 mb-6 md:flex gap-7">
+      <CardItem
+          src="/images/coconutPalace2.jpg"
           path=""
           number="01"
           title="Coconut Palace"
-          description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
+          description="Coconut Palace is a government building located in the Cultural Center of the Philippines Complex. It is the main working place & residence of the Vice President of the Philippines."
         />
 
         <div className="mt-7 md:mt-0">
@@ -246,7 +246,7 @@ const Hero = () => {
             path=""
             number="02"
             title="New Clark City Aquatics Center"
-            description="New Clark City Aquatic Center is a swimming and diving venue at the New Clark City in Capas, Tarlac, Philippines."
+            description="New Clark City Aquatic Center is a swimming and diving venue at the New Clark City in Capas, Tarlac, Philippines. It is one of the venues of the New Clark City Sports Hub."
           />
         </div>
       </div>

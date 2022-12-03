@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaHome } from "@react-icons/all-files/fa/FaHome";
 
 const NotFound = () => {
   return (
@@ -27,13 +28,15 @@ const NotFound = () => {
           href="/"
         >
           <button className="px-4 py-2 mx-3 font-bold text-gray-100 rounded-lg bg-gradient-to-r bg-neutral-800 hover:bg-neutral-900 dark:bg-neutral-50 dark:hover:bg-neutral-300 dark:text-black">
-            GO HOME
+            <div className="flex">
+              <FaHome size={16} className="mt-1 mr-1" /> GO HOME
+            </div>
           </button>
         </Link>
 
-        <button className="px-4 py-2 mx-3 font-bold text-gray-100 rounded-lg bg-gradient-to-r bg-neutral-800 hover:bg-neutral-900 dark:bg-neutral-50 dark:hover:bg-neutral-300 dark:text-black">
+        {/* <button className="px-4 py-2 mx-3 font-bold text-gray-100 rounded-lg bg-gradient-to-r bg-neutral-800 hover:bg-neutral-900 dark:bg-neutral-50 dark:hover:bg-neutral-300 dark:text-black">
           CONTACT US
-        </button>
+        </button> */}
       </div>
     </div>
   );

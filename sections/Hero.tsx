@@ -101,7 +101,7 @@ const Hero = () => {
             </p>
             <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
           </div>
-          <div className="text-xl font-bold m-7">
+          <div className="text-3xl font-bold m-7">
             <h3>Stay tuned for more projects...</h3>
           </div>
         </div>

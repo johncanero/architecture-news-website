@@ -241,31 +241,31 @@ const Hero = () => {
 
         <div className="mt-7 md:mt-0">
           <CardItem
-            src="/images/coconutPalace.jpg"
+            src="/images/acquaticCenterClark.jpg"
             path=""
             number="02"
-            title="Coconut Palace"
-            description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
+            title="New Clark City Aquatics Center"
+            description="New Clark City Aquatic Center is a swimming and diving venue at the New Clark City in Capas, Tarlac, Philippines."
           />
         </div>
       </div>
 
       <div className="mt-6 mb-6 md:flex gap-7">
         <CardItem
-          src="/images/coconutPalace.jpg"
+          src="/images/philippineArena.jpg"
           path=""
           number="03"
-          title="Coconut Palace"
-          description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
+          title="Philippine Arena"
+          description="The Philippine Arena, multipurpose indoor arena with a maximum seating capacity of 55,000 is a 140-hectare tourism enterprise zone located in Bocacue, Bulacan."
         />
 
         <div className="mt-7 md:mt-0">
           <CardItem
-            src="/images/coconutPalace.jpg"
+            src="/images/fortSantiago.jpg"
             path=""
             number="04"
-            title="Coconut Palace"
-            description="Coconut Palace, also known as Tahanang Pilipino, is a government building located in the Cultural Center of the Philippines Complex in Manila, Philippines."
+            title="Fort Santiago"
+            description="Fort Santiago, built in 1571, is a citadel built by Spanish navigator and governor Miguel López de Legazpi for the newly established city of Manila in the Philippines"
           />
         </div>
       </div>

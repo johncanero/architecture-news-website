@@ -179,7 +179,7 @@ const Hero = () => {
             src="/images/manosaExpert.jpg"
             width={1000}
             height={1000}
-            alt="ewcClarkCity"
+            alt="newcClarkCity"
             className="mt-1 rounded-lg md:h-41 "
           />
           <p className="justify-end mt-2 mb-12 text-xs text-left md:mb-0">
@@ -230,6 +230,7 @@ const Hero = () => {
         </div>
       </div>
 
+      {/* Card Items */}
       <div className="mt-6 md:flex gap-7">
         <CardItem
           src="/images/coconutPalace.jpg"

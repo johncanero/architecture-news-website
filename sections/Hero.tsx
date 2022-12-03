@@ -172,7 +172,7 @@ const Hero = () => {
           <hr className="h-px bg-gray-300 border-0 my-14 dark:bg-neutral-800"></hr>
         </div>
         <div>
-          <h3 className="text-3xl font-semibold text-right ">
+          <h3 className="text-3xl font-bold text-right ">
             Know the Experts
           </h3>
           <Image

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const CardItem = (props) => {
   return (
-    <div className="bg-white hover:bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800 dark:hover:bg-neutral-700 font-Poppins">
+    <div className="bg-neutral-50 hover:bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800 dark:hover:bg-neutral-700 font-Poppins">
       <Link
         href={props.path}
         className="flex-col items-center rounded-lg shadow-md lg:flex md:flex-row md:max-w-xl "

@@ -242,7 +242,7 @@ const Hero = () => {
 
         <div className="mt-7 md:mt-0">
           <CardItem
-            src="/images/acquaticCenterClark.jpg"
+            src="/images/aquaCenterClark.jpg"
             path=""
             number="02"
             title="New Clark City Aquatics Center"

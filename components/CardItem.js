@@ -15,10 +15,10 @@ const CardItem = (props) => {
           alt=""
           width={180}
           height={180}
-          className="w-full p-4 rounded-2xl"
+          className="w-full p-4 rounded-3xl"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
-          <h1 className="text-3xl font-bold text-neutral-300">
+          <h1 className="text-3xl font-semibold text-neutral-300">
             {props.number}
           </h1>
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

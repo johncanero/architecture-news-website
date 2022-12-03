@@ -151,7 +151,7 @@ const MenuDropdown = () => {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <Link href="/projects">
+                    <Link href="/trending">
                       <button
                         className={`${
                           active ? "bg-violet-500 text-white" : "text-gray-900"
@@ -172,7 +172,7 @@ const MenuDropdown = () => {
                     <Link
                       // target="_blank"
                       rel="noopener noreferrer"
-                      href="/contact"
+                      href="/categories"
                     >
                       <button
                         className={`${

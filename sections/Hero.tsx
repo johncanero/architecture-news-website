@@ -133,9 +133,9 @@ const Hero = () => {
             friendly.
           </p>
           <Link
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
-            href="https://newclark.ph/"
+            href=""
           >
             <button className="flex px-32 py-3 mx-auto mt-5 font-bold tracking-widest rounded-lg md:px-12 md:mx-0 text-neutral-900 bg-amber-400 hover:bg-amber-300">
               READ ME
@@ -169,7 +169,7 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          <hr className="h-px bg-gray-300 border-0 my-14 dark:bg-gray-800"></hr>
+          <hr className="h-px bg-gray-300 border-0 my-14 dark:bg-neutral-800"></hr>
         </div>
         <div>
           <h3 className="text-3xl font-semibold text-right ">
@@ -190,7 +190,7 @@ const Hero = () => {
             the Philippines.
           </p>
 
-          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-800"></hr>
+          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-neutral-800"></hr>
         </div>
 
         <div className="hidden md:hidden lg:block">
@@ -208,7 +208,7 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          <hr className="h-px mt-3 bg-gray-300 border-0 dark:bg-gray-800"></hr>
+          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-neutral-800"></hr>
         </div>
 
         <div className="hidden md:hidden lg:block">
@@ -226,7 +226,7 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          <hr className="h-px mt-3 bg-gray-300 border-0 dark:bg-gray-800"></hr>
+          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-neutral-800"></hr>
         </div>
       </div>
 

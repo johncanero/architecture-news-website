@@ -35,5 +35,5 @@ Philippine architecture throughout the country.
 
 <!-- ![Desktop View - Architecture News Homepage Website](./public/images/responsive/desktopView.png)
 ![Tablet View - Architecture News Homepage Website](./public/images/responsive/tabletView.png) -->
-![Mobile View - Architecture News Homepage Website](./public/images/responsive/architectureNewsWebsiteMobilePost1.jpg)
+![Mobile View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteMobilePost1.jpg)
 <!-- ![Code View - Architecture News Homepage Website](./public/images/responsive/codeView2.png) -->

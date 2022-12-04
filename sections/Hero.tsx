@@ -40,7 +40,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="pearlFarmResort"
-              className="h-56 mt-1 rounded-lg md:h-40"
+              className="h-56 mt-1 rounded-lg md:h-48"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from Gaia Discovery: Pearl Farm Beach Resort - Aquaculture
@@ -64,7 +64,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="ustMainBuilding.jpeg"
-              className="h-56 mt-1 rounded-lg md:h-40"
+              className="h-56 mt-1 rounded-lg md:h-48"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from Gwen Dela Cruz of Rappler: UST Main Building
@@ -87,7 +87,7 @@ const Hero = () => {
               width={1000}
               height={1000}
               alt="buensalidoPolygonHouse"
-              className="h-56 mt-1 rounded-lg md:h-40"
+              className="h-56 mt-1 rounded-lg md:h-48"
             />
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from BluPrint: Buensalido’s Polygon House is the Result of
@@ -169,7 +169,7 @@ const Hero = () => {
             facilis molestias, recusandae delectus nisi?
           </p>
 
-          <hr className="h-px bg-gray-300 border-0 my-14 dark:bg-neutral-800"></hr>
+          <hr className="h-px my-8 bg-gray-300 border-0 lg:mt-32 dark:bg-neutral-800"></hr>
         </div>
         <div>
           <h3 className="text-3xl font-bold text-right ">
@@ -231,7 +231,7 @@ const Hero = () => {
       </div>
 
       {/* Card Items */}
-      <div className="mt-6 mb-6 md:flex gap-7">
+      <div className="gap-24 mt-6 mb-6 md:flex">
       <CardItem
           src="/images/coconutPalace2.jpg"
           path=""
@@ -245,13 +245,13 @@ const Hero = () => {
             src="/images/aquaCenterClark.jpg"
             path=""
             number="02"
-            title="New Clark City Aquatics Center"
+            title="New Clark Aquatics Center"
             description="New Clark City Aquatic Center is a swimming and diving venue at the New Clark City in Capas, Tarlac, Philippines. It is one of the venues of the New Clark City Sports Hub."
           />
         </div>
       </div>
 
-      <div className="mt-6 mb-6 md:flex gap-7">
+      <div className="gap-24 mt-6 mb-6 md:flex">
         <CardItem
           src="/images/philippineArena.jpg"
           path=""

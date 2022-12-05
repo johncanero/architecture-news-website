@@ -33,6 +33,7 @@ Philippine architecture throughout the country.
 
 🪟: [Desktop - Tablet - Mobile]
 
+Desktop Responsive Light
 ![Desktop View - Architecture News Homepage Website](./public/responsive/architectureNewsDesktop.png)
 Desktop Responsive Dark
 ![Desktop View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteDesktopDark.jpg)

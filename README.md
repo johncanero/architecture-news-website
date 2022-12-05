@@ -33,8 +33,8 @@ Philippine architecture throughout the country.
 
 🪟: [Desktop - Tablet - Mobile]
 
-![Desktop View - Architecture News Homepage Website](./public/images/responsive/architectureNewsDesktop.png)
-![Desktop View - Architecture News Homepage Website](./public/images/responsive/architectureNewsWebsiteDesktopDark.jpg)
-![Tablet View - Architecture News Homepage Website](./public/images/responsive/architectureNewsWebsiteTablet.jpg)
+![Desktop View - Architecture News Homepage Website](./public/responsive/architectureNewsDesktop.png)
+![Desktop View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteDesktopDark.jpg)
+![Tablet View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteTablet.jpg)
 ![Mobile View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteMobilePost1.jpg)
 

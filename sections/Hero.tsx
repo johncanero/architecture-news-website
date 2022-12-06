@@ -7,7 +7,7 @@ import CardItem from "../components/CardItem";
 const Hero = () => {
   return (
     <div>
-      <div className="flex-col mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-5 font-Poppins">
+      <div className="flex-col mx-auto mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-5 font-Poppins">
         <div className="col-span-2">
           {/* <h1 className="text-3xl font-bold">Architecture News</h1> */}
           <Link

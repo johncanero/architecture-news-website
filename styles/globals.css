@@ -13,3 +13,16 @@
       @apply dark:bg-zinc-800
     }
 }
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+ body {
+        @apply sm:w-96 sm:ml-2;
+
+    }
+}

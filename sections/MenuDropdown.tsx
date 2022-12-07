@@ -67,7 +67,7 @@ const MenuDropdown = () => {
 
   return (
     // Mobile Visibility
-    <div className="flex justify-between mt-4 text-right md:hidden top-16 w-96">
+    <div className="flex justify-between mx-4 mt-4 text-right md:hidden top-16 w-96">
       {/* Image */}
       <Link rel="noopener noreferrer" href="/">
         <div>

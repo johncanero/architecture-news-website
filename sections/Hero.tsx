@@ -7,7 +7,7 @@ import CardItem from "../components/CardItem";
 const Hero = () => {
   return (
     <div>
-      <div className="flex-col mx-auto mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-5 font-Poppins">
+      <div className="flex-col px-4 mx-auto mt-7 md:flex-none lg:grid-cols-3 lg:grid-rows-4 md:grid md:gap-7 md:gap-y-5 font-Poppins">
         <div className="col-span-2">
           {/* <h1 className="text-3xl font-bold">Architecture News</h1> */}
           <Link
@@ -172,9 +172,7 @@ const Hero = () => {
           <hr className="h-px my-8 bg-gray-300 border-0 lg:mt-32 dark:bg-neutral-800"></hr>
         </div>
         <div>
-          <h3 className="text-3xl font-bold text-right ">
-            Know the Experts
-          </h3>
+          <h3 className="text-3xl font-bold text-right ">Know the Experts</h3>
           <Image
             src="/images/manosaExpert.jpg"
             width={1000}
@@ -231,8 +229,8 @@ const Hero = () => {
       </div>
 
       {/* Card Items */}
-      <div className="gap-24 mt-6 mb-6 md:flex">
-      <CardItem
+      <div className="gap-24 px-4 mt-6 mb-6 md:flex">
+        <CardItem
           src="/images/coconutPalace2.jpg"
           path=""
           number="01"
@@ -251,7 +249,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="gap-24 mt-6 mb-6 md:flex">
+      <div className="gap-24 px-4 mt-6 mb-6 md:flex">
         <CardItem
           src="/images/philippineArena.jpg"
           path=""

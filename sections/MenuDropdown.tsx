@@ -30,7 +30,7 @@ const MenuDropdown = () => {
     if (currentTheme === "light") {
       return (
         <Button
-          className="mr-2 text-neutral-800"
+          className="mr-1 text-neutral-800"
           onClick={() => setTheme("dark")}
         >
           <svg
@@ -46,7 +46,7 @@ const MenuDropdown = () => {
     } else {
       return (
         <Button
-          className="mr-2 text:bg-white"
+          className="mr-1 text:bg-white"
           onClick={() => setTheme("light")}
         >
           <svg
@@ -86,9 +86,9 @@ const MenuDropdown = () => {
         {renderThemeChanger()}
         <Menu as="div" className="relative inline-block text-left mr-7">
           <div>
-            <Menu.Button className="inline-flex justify-center w-full px-2 py-2 text-sm font-medium text-white rounded-md bg-neutral-800 dark:bg-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
+            <Menu.Button className="inline-flex justify-center w-full px-2 py-2 text-sm font-medium rounded-md  focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
               <GiHamburgerMenu
-                className="w-5 h-5 dark:text-neutral-900"
+                className="w-5 h-5"
                 aria-hidden="true"
               />
             </Menu.Button>

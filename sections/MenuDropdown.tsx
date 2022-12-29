@@ -30,7 +30,7 @@ const MenuDropdown = () => {
     if (currentTheme === "light") {
       return (
         <Button
-          className="mr-2 text-neutral-800"
+          className=" text-neutral-800"
           onClick={() => setTheme("dark")}
         >
           <svg
@@ -46,7 +46,7 @@ const MenuDropdown = () => {
     } else {
       return (
         <Button
-          className="mr-2 text:bg-white"
+          className=" text:bg-white"
           onClick={() => setTheme("light")}
         >
           <svg

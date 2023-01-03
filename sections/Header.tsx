@@ -63,7 +63,7 @@ const Header = () => {
       <div className="hidden md:block">
         <header className="flex items-center justify-between h-20 mt-3">
           <div>
-            <Link rel="noopener noreferrer" href="/">
+            <Link rel="noopener noreferrer" href="/" className="flex">
               <Image
                 src="/images/Alogo3.png"
                 width={50}

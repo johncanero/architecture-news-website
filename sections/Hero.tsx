@@ -28,8 +28,8 @@ const Hero = () => {
             @ ArchDaily | Photograph: John Nye{" "}
           </p>
         </div>
-        <div className="row-span-4 pb-3 bg-neutral-50 text-neutral-900 md:text-white md:bg-neutral-900 rounded-xl dark:text-white dark:bg-neutral-800">
-          <h1 className="pt-6 mx-6 text-3xl font-bold text-center md:text-amber-400 md:text-left md:mt-7 m-7 md:pt-0 dark:text-amber-400">
+        <div className="row-span-4 pb-3 bg-neutral-50 text-neutral-900 rounded-xl dark:text-white dark:bg-neutral-800">
+          <h1 className="pt-6 mx-6 text-3xl font-bold text-center text-neutral-900 md:text-left md:mt-7 m-7 md:pt-0 dark:text-amber-400">
             Amazing Philippine Architecture
           </h1>{" "}
           <div className="m-7">

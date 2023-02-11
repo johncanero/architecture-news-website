@@ -11,7 +11,7 @@ import { FaHome } from "@react-icons/all-files/fa/FaHome";
 import { GrNewWindow } from "@react-icons/all-files/gr/GrNewWindow";
 import { AiFillStar } from "@react-icons/all-files/ai/AiFillStar";
 import { FiTrendingUp } from "@react-icons/all-files/fi/FiTrendingUp";
-import { HiTemplate} from "@react-icons/all-files/hi/HiTemplate";
+import { HiTemplate } from "@react-icons/all-files/hi/HiTemplate";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -26,7 +26,7 @@ const MenuDropdown = () => {
 
     const currentTheme = theme === "system" ? systemTheme : theme;
 
-    
+
     if (currentTheme === "light") {
       return (
         <Button
@@ -71,7 +71,7 @@ const MenuDropdown = () => {
     <div className="flex justify-between mt-4 text-right md:hidden top-16 w-96">
       {/* Image */}
       <Link rel="noopener noreferrer" href="/">
-        <div>
+        <div className="flex">
           <Image
             src="/images/Alogo3.png"
             width={40}
@@ -79,6 +79,7 @@ const MenuDropdown = () => {
             alt="jLogo"
             className="animate__animated animate__fadeIn"
           />
+          <h1 className="font-semibold font-Poppins text-sm mt-2 ml-1 ">Architecture News</h1>
         </div>
       </Link>
       {/* Dark Mode and Toggle */}
@@ -109,9 +110,8 @@ const MenuDropdown = () => {
                   {({ active }) => (
                     <Link href="/">
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
                         <FaHome size={17} />
                         <span className="ml-2">Home</span>
@@ -123,9 +123,8 @@ const MenuDropdown = () => {
                   {({ active }) => (
                     <Link href="/new">
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
                         <GrNewWindow size={17} />
                         <span className="ml-2">New</span>
@@ -140,9 +139,8 @@ const MenuDropdown = () => {
                   {({ active }) => (
                     <Link href="/popular">
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
                         <AiFillStar size={17} />
                         <span className="ml-2">Popular</span>
@@ -154,9 +152,8 @@ const MenuDropdown = () => {
                   {({ active }) => (
                     <Link href="/trending">
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
                         <FiTrendingUp size={17} />
                         <span className="ml-2">Trending</span>
@@ -169,16 +166,15 @@ const MenuDropdown = () => {
               {/* Contact */}
               <div className="px-1 py-1 pb-2">
                 <Menu.Item>
-                  {({ active }) => (  
+                  {({ active }) => (
                     <Link
                       // target="_blank"
                       rel="noopener noreferrer"
                       href="/categories"
                     >
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
                       >
                         <HiTemplate size={17} />
                         <span className="ml-2">Categories</span>

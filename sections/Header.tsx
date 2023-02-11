@@ -71,10 +71,12 @@ const Header = () => {
                 alt="aLogo"
                 className=""
               />
+
+              <h1 className="font-semibold font-Poppins text-sm lg:text-2xl mt-3 lg:mt-2 ml-1 ">Architecture News</h1>
             </Link>
           </div>
           <div className="">
-            <ul className="flex gap-5 text-sm md:gap-9">
+            <div className="flex gap-5 text-sm md:gap-5">
               {/* Header Links */}
               <Link
                 rel="noopener noreferrer"
@@ -116,7 +118,7 @@ const Header = () => {
                 Categories
               </Link>
               {renderThemeChanger()}
-            </ul>
+            </div>
           </div>
         </header>
       </div>

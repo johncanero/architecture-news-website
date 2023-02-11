@@ -72,11 +72,11 @@ const Header = () => {
                 className=""
               />
 
-              <h1 className="font-semibold font-Poppins text-sm lg:text-2xl mt-3 lg:mt-2 ml-1 ">Architecture News</h1>
+              <h1 className="font-semibold font-Poppins text-sm lg:text-2xl mt-3 lg:mt-2 lg:ml-2 ml-1">Architecture News</h1>
             </Link>
           </div>
           <div className="">
-            <div className="flex gap-5 text-sm md:gap-5">
+            <div className="flex lg:gap-16 text-sm md:gap-5">
               {/* Header Links */}
               <Link
                 rel="noopener noreferrer"

@@ -47,10 +47,7 @@ const Hero = () => {
               Tourism on Samal Island
             </p>
             <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              eum, aliquid, omnis laboriosam nemo corrupti eos velit
-              necessitatibus cum, placeat ad ex maxime error? Quidem veritatis
-              maxime optio tempore perspiciatis?
+              <span className="font-semibold">Pearl Farm Beach Resort</span> is a luxurious resort located on Samal Island in the Davao Gulf, Philippines. It offers a unique blend of nature and sophistication, with facilities that range from white sand beaches, swimming pools, restaurants, to spa and wellness centers. Pearl Farm is a perfect destination for those seeking to escape the hustle and bustle of city life and immerse themselves in serene surroundings.
             </p>
             <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
           </div>
@@ -70,10 +67,7 @@ const Hero = () => {
               PHOTO from Gwen Dela Cruz of Rappler: UST Main Building
             </p>
             <p className="mt-2 text-sm text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              eum, aliquid, omnis laboriosam nemo corrupti eos velit
-              necessitatibus cum, placeat ad ex maxime error? Quidem veritatis
-              maxime optio tempore perspiciatis?
+              The <span className="font-semibold">UST Main Building</span>, located in the University of Santo Tomas campus in Manila, Philippines, is one of the most iconic and historic structures in the country. It has served as the main academic building of the university. The building is a testament to the rich cultural heritage of the Philippines and is considered one of the oldest stone structures in Asia.
             </p>
             <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
           </div>
@@ -94,10 +88,7 @@ const Hero = () => {
               Out-of-the-Box Thinking
             </p>
             <p className="mt-2 text-sm text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              eum, aliquid, omnis laboriosam nemo corrupti eos velit
-              necessitatibus cum, placeat ad ex maxime error? Quidem veritatis
-              maxime optio tempore perspiciatis?
+              The <span className="font-semibold">Buensalido's Polygon House</span> in the Philippines is a modern, polygonal-shaped building that prioritizes natural light, ventilation, privacy and openness. Its exterior is a clean, geometric design and its interior is finished with high-end materials and furnishings, creating a warm and inviting space. This innovative and unique design showcases Philippine architecture and construction.
             </p>
             <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
           </div>
@@ -156,17 +147,11 @@ const Hero = () => {
         {/* Card Item */}
         <div>
           <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
+            The <span className="font-semibold">New Clark City's Master Plan</span> is a large-scale development project located in the Philippines. It aims to create a sustainable and modern metropolis that will serve as an alternative to the congested and overcrowded capital, Manila.
           </p>
 
           <p className="mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
+            The master plan encompasses a wide range of facilities and amenities, including residential areas, commercial districts, parks and green spaces, cultural and recreational facilities, and modern transportation infrastructure.
           </p>
 
           <hr className="h-px my-8 bg-gray-300 border-0 lg:mt-32 dark:bg-neutral-800"></hr>
@@ -194,6 +179,7 @@ const Hero = () => {
         </div>
 
         <div className="hidden md:hidden lg:block">
+          <h2>Why Architecture?</h2>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
             deleniti expedita quisquam numquam corrupti quae, repudiandae
@@ -212,6 +198,7 @@ const Hero = () => {
         </div>
 
         <div className="hidden md:hidden lg:block">
+          <h2>Designing Spaces for People</h2>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
             deleniti expedita quisquam numquam corrupti quae, repudiandae
@@ -232,7 +219,7 @@ const Hero = () => {
 
       {/* Card Items */}
       <div className="gap-24 mt-6 mb-6 md:flex">
-      <CardItem
+        <CardItem
           src="/images/coconutPalace2.jpg"
           path=""
           number="01"

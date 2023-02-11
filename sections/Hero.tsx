@@ -46,10 +46,10 @@ const Hero = () => {
               PHOTO from Gaia Discovery: Pearl Farm Beach Resort - Aquaculture
               Tourism on Samal Island
             </p>
-            <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+            <p className="mt-2 text-sm text-gray-500 dark:text-gray-400 hidden lg:block">
               <span className="font-semibold">Pearl Farm Beach Resort</span> is a luxurious resort located on Samal Island in the Davao Gulf, Philippines. It offers a unique blend of nature and sophistication, with facilities that range from white sand beaches, swimming pools, restaurants, to spa and wellness centers. Pearl Farm is a perfect destination for those seeking to escape the hustle and bustle of city life and immerse themselves in serene surroundings.
             </p>
-            <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
+
           </div>
           <div className="m-7">
             <h2 className="text-xl font-semibold">
@@ -66,10 +66,10 @@ const Hero = () => {
             <p className="justify-end mt-1 text-xs text-left">
               PHOTO from Gwen Dela Cruz of Rappler: UST Main Building
             </p>
-            <p className="mt-2 text-sm text-gray-500">
+            <p className="mt-2 text-sm text-gray-500  hidden lg:block">
               The <span className="font-semibold">UST Main Building</span>, located in the University of Santo Tomas campus in Manila, Philippines, is one of the most iconic and historic structures in the country. It has served as the main academic building of the university. The building is a testament to the rich cultural heritage of the Philippines and is considered one of the oldest stone structures in Asia.
             </p>
-            <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
+
           </div>
           <div className="m-7">
             <h2 className="text-xl font-semibold">
@@ -87,10 +87,10 @@ const Hero = () => {
               PHOTO from BluPrint: Buensalido’s Polygon House is the Result of
               Out-of-the-Box Thinking
             </p>
-            <p className="mt-2 text-sm text-gray-500">
+            <p className="mt-2 text-sm text-gray-500 hidden lg:block">
               The <span className="font-semibold">Buensalido's Polygon House</span> in the Philippines is a modern, polygonal-shaped building that prioritizes natural light, ventilation, privacy and openness. Its exterior is a clean, geometric design and its interior is finished with high-end materials and furnishings, creating a warm and inviting space. This innovative and unique design showcases Philippine architecture and construction.
             </p>
-            <hr className="h-px my-6 border-neutral-400 md:border-neutral-600"></hr>
+
           </div>
           <div className="text-3xl font-bold m-7">
             <h3>Stay tuned for more projects...</h3>
@@ -113,9 +113,9 @@ const Hero = () => {
             PHOTO from BCDA: New Clark City's Master Plan
           </p>
           {/* <p className="mt-1 text-sm">Witness the future Clark's City Development and one-of-a-kind structures.</p> */}
+
         </div>
         <div>
-          {" "}
           <p className="mx-2 mt-4 text-sm text-center md:mt-0 md:text-left">
             We dive into the next evolution of Architecture in the Philippines
             that claims to empower the next generation design of the Philippine
@@ -154,7 +154,6 @@ const Hero = () => {
             The master plan encompasses a wide range of facilities and amenities, including residential areas, commercial districts, parks and green spaces, cultural and recreational facilities, and modern transportation infrastructure.
           </p>
 
-          <hr className="h-px my-8 bg-gray-300 border-0 lg:mt-32 dark:bg-neutral-800"></hr>
         </div>
         <div>
           <h3 className="text-3xl font-bold text-right ">
@@ -175,50 +174,40 @@ const Hero = () => {
             the Philippines.
           </p>
 
-          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-neutral-800"></hr>
+
         </div>
 
         <div className="hidden md:hidden lg:block">
-          <h2>Why Architecture?</h2>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
-          </p>
+          <h2 className="font-bold text-2xl">Why Architecture?</h2>
+          <div className="mt-2">
+            <p className="">
+              Architecture provides a framework for the design of buildings and other structures, determining their form, function, and aesthetic. It helps ensure that buildings are safe, efficient, and accessible, and meets the needs and expectations of their users.
+            </p>
 
-          <p className="mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
-          </p>
+            <p className="mt-2">
+              Furthermore, architecture has a significant impact on the quality of life in communities and can shape the character of a city or region, making it an important aspect of urban planning and design.
+            </p>
+          </div>
 
-          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-neutral-800"></hr>
+
         </div>
 
         <div className="hidden md:hidden lg:block">
-          <h2>Designing Spaces for People</h2>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
-          </p>
+          <h2 className="font-bold text-2xl">Designing Spaces for People</h2>
+          <div className="mt-2">
+            <p className="">
+              Designing spaces for people is essential in architecture because the built environment has a significant impact on the well-being, comfort, and behavior of those who occupy it. Architects must consider factors such as natural light, ventilation, acoustics, and accessibility when creating spaces to ensure that they are functional, safe, and conducive to the activities that will take place within them.
+            </p>
 
-          <p className="mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            deleniti expedita quisquam numquam corrupti quae, repudiandae
-            officiis eos voluptate architecto inventore sunt sequi qui iure
-            facilis molestias, recusandae delectus nisi?
-          </p>
-
-          <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-neutral-800"></hr>
+            <p className="mt-2">
+              By putting people first in the design process, architects can create spaces that not only meet their physical needs, but also enhance their emotional and psychological well-being, improving the quality of life for all who use them.
+            </p>
+          </div>
         </div>
       </div>
 
       {/* Card Items */}
-      <div className="gap-24 mt-6 mb-6 md:flex">
+      <div className="gap-12 lg:gap-16 mt-6 mb-6 md:flex">
         <CardItem
           src="/images/coconutPalace2.jpg"
           path=""
@@ -238,7 +227,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="gap-24 mt-6 mb-6 md:flex">
+      <div className="gap-12 lg:gap-16 mt-6 mb-6 md:flex">
         <CardItem
           src="/images/philippineArena.jpg"
           path=""

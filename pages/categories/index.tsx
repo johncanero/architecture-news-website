@@ -1,11 +1,12 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 
 const index = () => {
   return (
     <div>
       <Head>
-        <title>Categories / Architecture News</title>
+        <title>Categories | Architecture News</title>
         <meta
           name="description"
           content="Categories: Architecture News"
@@ -16,8 +17,19 @@ const index = () => {
         <link rel="shortcut icon" href="/images/Alogo3.png" />
         {/* Sitemap */}
       </Head>
-      <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-amber-400 font-Poppins">
-        Categories
+      <div className="relative text-center">
+        <div className="absolute top-0 flex justify-center w-full mt-4">
+          <div className="text-xl font-semibold text-gray-600 lg:text-2xl dark:text-gray-700 font-Poppins">
+            Categories
+          </div>
+        </div>
+        <Image
+          src="/images/architectureNewsWebsiteCover.jpg"
+          width={1500}
+          height={1500}
+          alt="Architecture News Website Cover"
+          className="mx-auto"
+        />
       </div>
     </div>
   );

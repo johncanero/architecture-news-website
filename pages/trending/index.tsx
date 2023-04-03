@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div>
       <Head>
-        <title>Trending | Architecture News</title>
+        <title>Trending / Architecture News</title>
         <meta
           name="description"
           content="Trending: Architecture News"

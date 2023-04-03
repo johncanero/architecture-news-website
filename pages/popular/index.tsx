@@ -6,7 +6,7 @@ const popular = () => {
   return (
     <div>
       <Head>
-        <title>Popular | Architecture News</title>
+        <title>Popular / Architecture News</title>
         <meta
           name="description"
           content="Popular: Architecture News"

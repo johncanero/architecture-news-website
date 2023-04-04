@@ -8,7 +8,7 @@ const Footer = () => {
        <Link
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.linkedin.com/in/johncanero/"
+        href="https://johncanero.com/"
       >
       <span className="mr-2 text-lg font-bold text-gray-900 dark:text-gray-100">
         John Cañero

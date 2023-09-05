@@ -32,13 +32,21 @@ Philippine architecture throughout the country.
 ## Responsive Design
 
 🪟: [Desktop - Tablet - Mobile]
+![Architecture News Portfolio](images/responsive/architectureNewsPortfolio.jpg)
+![Architecture News - Branding Portfolio](/images/responsive/architectureNews.jpg)
+![Architecture News - Description Portfolio](images/responsive/architectureNewsInfo.jpg)
 
-Desktop Responsive Light
-![Desktop View - Architecture News Homepage Website](./public/responsive/architectureNewsDesktop.png)
-Desktop Responsive Dark
-![Desktop View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteDesktopDark.jpg)
-Tablet Responsive | Light and Dark
-![Tablet View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteTablet.jpg)
-Mobile Responsive | Light and Dark
-![Mobile View - Architecture News Homepage Website](./public/responsive/architectureNewsWebsiteMobilePost1.jpg)
+![Architecture News - Mockup Portfolio](/images/responsive/architectureNewsMockupLightMode.jpg)
+![Architecture News - Mockup Portfolio](/images/responsive/architectureNewsMockupDarkMode.jpg)
 
+![Architecture News - Mobile Portfolio](/images/responsive/architectureNewsMobileLightMode.jpg)
+![Architecture News - Mobile Portfolio](/images/responsive/architectureNewsMobileDarkMode.jpg)
+![Architecture News - Mobile Portfolio](/images/responsive/architectureNewsMobileMockup.jpg)
+
+![Architecture News - Tablet Portfolio](/images/responsive/architectureNewsTabletLightMode.jpg)
+![Architecture News - Tablet Portfolio](/images/responsive/architectureNewsTabletDarkMode.jpg)
+![Architecture News - Tablet Portfolio](/images/responsive/architectureNewsTabletMockup.jpg)
+
+![Architecture News - Desktop Portfolio](/images/responsive/architectureNewsDesktopLightMode.jpg)
+![Architecture News - Desktop Portfolio](/images/responsive/architectureNewsDesktopDarkMode.jpg)
+![Architecture News - Desktop Portfolio](/images/responsive/architectureNewsDesktopMockup.jpg)

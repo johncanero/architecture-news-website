@@ -32,21 +32,21 @@ Philippine architecture throughout the country.
 ## Responsive Design
 
 🪟: [Desktop - Tablet - Mobile]
-![Architecture News Portfolio](.public/responsive/architectureNewsPortfolio.jpg)
-![Architecture News - Branding Portfolio](.public/responsive/architectureNews.jpg)
-![Architecture News - Description Portfolio](.public/responsive/architectureNewsInfo.jpg)
+![Architecture News Portfolio](./public/images/responsive/architectureNewsPortfolio.jpg)
+![Architecture News - Branding Portfolio](./public/images/responsive/architectureNews.jpg)
+![Architecture News - Description Portfolio](./publicimages/responsive/architectureNewsInfo.jpg)
 
-![Architecture News - Mockup Portfolio](.public/images/responsive/architectureNewsMockupLightMode.jpg)
-![Architecture News - Mockup Portfolio](.public/images/responsive/architectureNewsMockupDarkMode.jpg)
+![Architecture News - Mockup Portfolio](./public/images/responsive/architectureNewsMockupLightMode.jpg)
+![Architecture News - Mockup Portfolio](./public/images/responsive/architectureNewsMockupDarkMode.jpg)
 
-![Architecture News - Mobile Portfolio](.public/images/responsive/architectureNewsMobileLightMode.jpg)
-![Architecture News - Mobile Portfolio](.public/images/responsive/architectureNewsMobileDarkMode.jpg)
-![Architecture News - Mobile Portfolio](.public/images/responsive/architectureNewsMobileMockup.jpg)
+![Architecture News - Mobile Portfolio](./public/images/responsive/architectureNewsMobileLightMode.jpg)
+![Architecture News - Mobile Portfolio](./public/images/responsive/architectureNewsMobileDarkMode.jpg)
+![Architecture News - Mobile Portfolio](./public/images/responsive/architectureNewsMobileMockup.jpg)
 
-![Architecture News - Tablet Portfolio](.public/images/responsive/architectureNewsTabletLightMode.jpg)
-![Architecture News - Tablet Portfolio](.public/images/responsive/architectureNewsTabletDarkMode.jpg)
-![Architecture News - Tablet Portfolio](.public/images/responsive/architectureNewsTabletMockup.jpg)
+![Architecture News - Tablet Portfolio](./public/images/responsive/architectureNewsTabletLightMode.jpg)
+![Architecture News - Tablet Portfolio](./public/images/responsive/architectureNewsTabletDarkMode.jpg)
+![Architecture News - Tablet Portfolio](./public/images/responsive/architectureNewsTabletMockup.jpg)
 
-![Architecture News - Desktop Portfolio](.public/images/responsive/architectureNewsDesktopLightMode.jpg)
-![Architecture News - Desktop Portfolio](.public/images/responsive/architectureNewsDesktopDarkMode.jpg)
-![Architecture News - Desktop Portfolio](.public/images/responsive/architectureNewsDesktopMockup.jpg)
+![Architecture News - Desktop Portfolio](./public/images/responsive/architectureNewsDesktopLightMode.jpg)
+![Architecture News - Desktop Portfolio](./public/images/responsive/architectureNewsDesktopDarkMode.jpg)
+![Architecture News - Desktop Portfolio](./public/images/responsive/architectureNewsDesktopMockup.jpg)

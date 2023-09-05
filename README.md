@@ -34,7 +34,7 @@ Philippine architecture throughout the country.
 🪟: [Desktop - Tablet - Mobile]
 ![Architecture News Portfolio](./public/images/responsive/architectureNewsPortfolio.jpg)
 ![Architecture News - Branding Portfolio](./public/images/responsive/architectureNews.jpg)
-![Architecture News - Description Portfolio](./publicimages/responsive/architectureNewsInfo.jpg)
+![Architecture News - Description Portfolio](./public/images/responsive/architectureNewsInfo.jpg)
 
 ![Architecture News - Mockup Portfolio](./public/images/responsive/architectureNewsMockupLightMode.jpg)
 ![Architecture News - Mockup Portfolio](./public/images/responsive/architectureNewsMockupDarkMode.jpg)
